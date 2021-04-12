@@ -35,3 +35,22 @@
     animation-delay: 1s;
     animation-fill-mode: forwards;
 }
+
+@keyframes animation3
+{
+    from {left: 0px; background-color: green;}
+    to {right: 200px; background-color: yellow;}
+    to {right: 300px; background-color:red;}
+}
+
+.animation3
+{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation-name: animation3;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
