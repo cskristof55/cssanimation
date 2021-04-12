@@ -5,7 +5,7 @@
     to {top: 300px; background-color: red;}
 }
 
-animation1
+.animation1
 {
     width: 100px;
     height: 100px;
@@ -15,4 +15,23 @@ animation1
     animation-duration: 3s;
     animation-delay: 1s;
     animation-fill-mode: backwards;
+}
+
+@keyframes animation2
+{
+    from {bottom: 0px; background-color: green;}
+    to {bottom: 150px; background-color: yellow;}
+    to {bottom: 300px; background-color: red;}
+}
+
+.animation2
+{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation-name: animation2;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
